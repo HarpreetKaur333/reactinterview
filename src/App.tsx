@@ -1,6 +1,11 @@
 import "./App.css";
+import ParentComponent from "./ParentComponentreactMemo";
+
+// import ReduxCounter from "./reduxCounter";
+// import { ThemeProvider } from "./contextAPI";
+// import ThemeSwitcher from "./contextAPIConsume";
 // import CountdownTimer from "./countdownCounter";
-import PaginatedTable from "./pagination";
+// import PaginatedTable from "./pagination";
 // import ThemeToggleApp from "./darkandlightheme";
 // import LoginForm from "./formValidation";
 // import ModalExample from "./modalexample";
@@ -21,7 +26,14 @@ function App() {
 
       {/* <CountdownTimer /> */}
 
-      <PaginatedTable />
+      {/* <PaginatedTable /> */}
+      {/* <ThemeProvider>
+        <ThemeSwitcher />
+      </ThemeProvider> */}
+
+      {/* <ReduxCounter /> */}
+
+      <ParentComponent />
     </>
   );
 }
